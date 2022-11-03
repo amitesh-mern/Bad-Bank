@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  font-family: Montserrat, sans-serif;
+  font-size: medium;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bg-primary{
+  background-color: red !important;
+}
+
+.card{
+  width: max-content;
+}
+
+.navbar-brand{
+  padding-left: 25px;
+  color: blue;
+font-weight: bolder;
+font-size: x-large;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: blue;
+}
+
+.nav-link{
+  padding-right: 25px!important;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.navbar-nav .nav-link.active{
+  background-color: blue;
+}
+
+.logOut {
+  padding-right: 25px;
+  --bs-nav-link-hover-color: blue;
+}
+
+img{
+  max-height: 500px;
+}
+
+@media screen and (min-width: 768px)
+{
+.jumbotron {
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+}
+
+.jumbotron {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  align-items: left;
+  background-color: #eee;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
